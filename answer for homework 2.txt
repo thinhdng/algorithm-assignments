@@ -1,0 +1,8 @@
+1. the cardinality of half-pset of S:
+for even n = C(n,0) + C(n,1) + ... + C(n,n/2) 
+for odd n = C(n,0) + C(n,1) + ... + C(n,(n-1)/2) 
+with "n" is the size/cardinality of S 
+with set S that its cardinality is 0 n 1 the subsets will be just itself
+the reason why we use combinations is that the order of the elements inside of the subsets doesn't matter -> {1,2} is the same thing as {2,1}
+2. my answer from #1 is related to my program in that since I know this is right I can just call itertools.combinations() 
+function to get all the combinations of the half-psets.
